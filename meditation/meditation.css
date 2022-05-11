@@ -1,0 +1,28 @@
+@import url(../header.css);
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    display: inline-block;
+    user-select: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 20px;
+    vertical-align:top;
+}
