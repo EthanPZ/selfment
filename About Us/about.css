@@ -1,0 +1,109 @@
+@import url(../header.css);
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+::selection {
+    background: #00c400;
+}
+
+::-webkit-scrollbar {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.title {
+    display: inline-block;
+    user-select: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 20px;
+    vertical-align:top;
+}
+
+.aboutustxt {
+    margin-top: 125px;
+    margin-bottom: 0;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.exp {
+    margin-top: 15px;
+    font-size: 25px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 540;
+}
+
+.faqtxt {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-size: 45px;
+    font-family: 'Inter', sans-serif;
+}
+
+.faqdesc {
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    font-size: 23px;
+    font-family: 'Staatliches', cursive;
+    line-height: 35px;
+}
+
+.whatptxt {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 45px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+
+.content {
+    background-color: rgba(54, 54, 54, 0.276);
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.576);
+    border-radius: 20px;
+    display: inline-block;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.179);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentfr {
+    background-color: rgb(227, 227, 227);
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 15px 30px 15px 20px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    transition: box-shadow 0.5s, margin-top 0.5s, min-height 0.5s;
+    user-select: none;
+
+}
+
+.contentfr:hover {
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.192);
+    margin-top: -5px;
+    min-height: 10px;
+}
+
+img {
+    display: inline-block;
+    border-radius: 10px;
+    width: 250px;
+    pointer-events: none;
+}

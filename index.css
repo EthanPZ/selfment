@@ -1,0 +1,166 @@
+@import url(./header.css);
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+::selection {
+    background: #00c400;
+}
+
+::-webkit-scrollbar {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    display: inline-block;
+    user-select: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 20px;
+    vertical-align:top;
+}
+
+.getmost {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 125px;
+}
+
+.im {
+    display: grid;
+    margin: auto;
+    background-color: #00c400;
+    border-style: none;
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    width: 580px;
+    transition: box-shadow 0.4s, background-color 0.4s, color 0.4s;
+}
+
+.im:hover {
+    box-shadow: 0px 0px 10px 3px rgb(0, 230, 0);
+    background-color: rgb(0, 180, 0);
+}
+
+.im:active {
+    background-color: rgb(0, 160, 0);
+    color: rgb(219, 219, 219)
+}
+
+.getmost2 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: -25px;
+}
+
+.why1 {
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Staatliches', cursive;
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: 100px;
+    margin-left: 35px;
+    margin-bottom: 0;
+}
+
+.whydesc1 {
+    margin-top: 5px;
+    margin-left: 40px;
+    width: 300px;
+    font-size: 20px;
+    font-family: 'Inter' ,sans-serif;
+    color: rgb(110, 110, 110);
+}
+
+.whyimg1 {
+    float: right;
+    width: 300px;
+    margin-right: 80px;
+}
+
+.why2 {
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Staatliches', cursive;
+    text-align: right;
+    margin-bottom: 0;
+    margin-top: 200px;
+    margin-right: 35px;
+    margin-bottom: 0;
+}
+
+.whydesc2 {
+    float: right;
+    margin-top: 5px;
+    margin-right: 135px;
+    width: 300px;
+    font-size: 20px;
+    font-family: 'Inter' ,sans-serif;
+    color: rgb(110, 110, 110);
+}
+
+.whyimg2 {
+    float: left;
+    width: 300px;
+    margin-left: 80px;
+    margin-top: 55px;
+}
+
+.why3 {
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Staatliches', cursive;
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: 200px;
+    margin-left: 35px;
+    margin-bottom: 0;
+}
+
+.whydesc3 {
+    margin-top: 5px;
+    margin-left: 40px;
+    width: 300px;
+    font-size: 20px;
+    font-family: 'Inter' ,sans-serif;
+    color: rgb(110, 110, 110);
+}
+
+.whyimg3 {
+    float: right;
+    width: 300px;
+    margin-right: 80px;
+}
+
+.wrapper1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    width: calc(300px * 5 + 25px * 5 * 2);
+}
+
+img {
+    pointer-events: none;
+}
