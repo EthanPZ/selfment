@@ -1,4 +1,4 @@
-@import url(../header.css);
+@import url(../../header.css);
 
 body {
     margin: 0;
@@ -34,27 +34,14 @@ a {
     font-family: 'Inter', sans-serif;
 }
 
-.youtube {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 20px;
-    user-select: none;
-    transition: color 0.4s;
-    display: inline-block;
-    margin-right: 20px;
-}
-
-.youtube:hover {
-    color: #FF0000;;
-}
-
-.spotify {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 20px;
-    user-select: none;
-    transition: color 0.4s;
-    display: inline-block;
-}
-
-.spotify:hover {
-    color: #1DB954;
+img {
+    border-color: rgba(0, 0, 0, 0.366);
+    border: solid 1.5px;
+    border-radius: 20px;
+    width: 350px;
+    height: auto;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

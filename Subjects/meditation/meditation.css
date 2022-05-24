@@ -1,0 +1,60 @@
+@import url(../../header.css);
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    display: inline-block;
+    user-select: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 20px;
+    vertical-align:top;
+}
+
+.titlemed {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+}
+
+.youtube {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    user-select: none;
+    transition: color 0.4s;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.youtube:hover {
+    color: #FF0000;;
+}
+
+.spotify {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    user-select: none;
+    transition: color 0.4s;
+    display: inline-block;
+}
+
+.spotify:hover {
+    color: #1DB954;
+}
