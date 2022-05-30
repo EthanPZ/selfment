@@ -17,16 +17,6 @@ a {
     text-decoration: none;
 }
 
-.title {
-    display: inline-block;
-    user-select: none;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-    margin-left: 20px;
-    vertical-align:top;
-}
-
 .titlemed {
     text-align: center;
     margin-bottom: 15px;
@@ -34,7 +24,7 @@ a {
     font-family: 'Inter', sans-serif;
 }
 
-img {
+.imgg {
     border-color: rgba(0, 0, 0, 0.366);
     border: solid 1.5px;
     border-radius: 20px;

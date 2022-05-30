@@ -25,16 +25,6 @@ a {
     height: calc(100vh - 91px);
 }
 
-.title {
-    display: inline-block;
-    user-select: none;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-    margin-left: 20px;
-    vertical-align:top;
-}
-
 .getmost {
     font-size: 45px;
     font-weight: bold;
@@ -46,7 +36,7 @@ a {
 
 .im {
     display: grid;
-    margin: auto;
+    justify-content: center;
     background-color: #00c400;
     border-style: none;
     color: white;
@@ -54,7 +44,7 @@ a {
     padding: 15px;
     border-radius: 10px;
     font-family: 'Inter', sans-serif;
-    width: 580px;
+    width: 300px;
     transition: box-shadow 0.4s, background-color 0.4s, color 0.4s;
 }
 
@@ -167,4 +157,16 @@ a {
 
 img {
     pointer-events: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        grid-template-columns: 200px 200px 200px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .wrapper {
+        grid-template-columns: 200px 200px;
+    }
 }

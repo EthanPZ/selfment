@@ -13,18 +13,8 @@ body {
     display: none;  /* Safari and Chrome */
 }
 
-.title {
-    display: inline-block;
-    user-select: none;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-    margin-left: 20px;
-    vertical-align:top;
-}
-
 .aboutustxt {
-    margin-top: 125px;
+    margin-top: 40px;
     margin-bottom: 0;
     font-size: 45px;
     font-weight: bold;
@@ -69,10 +59,13 @@ body {
     background-color: rgba(54, 54, 54, 0.276);
     border: 1px solid;
     border-color: rgba(255, 255, 255, 0.576);
-    display: inline-block;
     display: flex;
     justify-content: center;
     align-items: center;
+    max-height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .contentfr {
@@ -84,15 +77,14 @@ body {
     margin: 15px 30px 15px 20px;
     padding: 10px 10px 10px 10px;
     border-radius: 20px;
-    transition: box-shadow 0.5s, margin-top 0.5s, min-height 0.5s;
+    transition: box-shadow 0.5s, transform 0.5s;
     user-select: none;
 
 }
 
 .contentfr:hover {
     box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.192);
-    margin-top: -5px;
-    min-height: 10px;
+    transform: translateY(-10px);
 }
 
 img {
